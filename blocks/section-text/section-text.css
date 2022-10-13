@@ -1,0 +1,6 @@
+.section-text {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 20px;
+  line-height: 28px;
+}
