@@ -1,0 +1,7 @@
+.button-small_type_right {
+  padding-right: 28px;
+  border-right: 1px solid var(--color-font);
+  background-image: url('../../../images/arrow-left.svg');
+  background-position: right;
+  text-align: right;
+}

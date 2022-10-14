@@ -1,0 +1,16 @@
+.button-small {
+  height: 31px;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid var(--color-font);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: .875;
+}
+
