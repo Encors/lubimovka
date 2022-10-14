@@ -1,4 +1,6 @@
 .about {
+  width: 100%;
   background-color: var(--color-blocks);
-  padding: 80px 360px;
+  padding: 80px 360px 120px;
+  box-sizing: border-box;
 }
