@@ -1,0 +1,12 @@
+.social {
+  max-width: 257px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: lowercase;
+  border-left: 1px solid var(--color-font);
+  height: 50px;
+  align-self: flex-end;
+
+}
