@@ -1,0 +1,5 @@
+.social__list {
+  display: flex;
+  column-gap: 16px;
+  margin: 9px 25px 0 25px;
+}
