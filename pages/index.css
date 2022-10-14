@@ -1,12 +1,21 @@
-@import url('../vendor/normalize.css');
-@import url('../vendor/fonts/fonts.css');
-
-@import url('../blocks/page/page.css');
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/list/list.css);
+@import url(../blocks/logo/__img/logo__img.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/support/support.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__list/navigation__list.css);
+@import url(../blocks/social/social.css);
+@import url(../blocks/social/__list/social__list.css);
+@import url(../blocks/support/__link/support__link.css);
+@import url(../blocks/support/__plus-icon/support__plus-icon.css);
 @import url('../blocks/about/about.css');
 @import url('../blocks/section-title/section-title.css');
 @import url('../blocks/section-title/_place/_about/section-title_place_about.css');
 @import url('../blocks/section-title/_place/_photos/section-title_place_photos.css');
-@import url('../blocks/section-title/_place/photos/section-title_place_photos.css');
 @import url('../blocks/section-text/section-text.css');
 @import url('../blocks/section-text/_place/_about/section-text_place_about.css');
 @import url('../blocks/photos/photos.css');
