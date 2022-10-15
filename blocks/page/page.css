@@ -15,13 +15,14 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-
+  
   /* fonts */
   --font-headlines: 'Neue Machina', sans-serif;
   --font-body: 'Formular', sans-serif;
   /* colors */
   --color-background: #ecebe8;
-  --color-akcent: #b7c09d;
+  --color-accent: #b7c09d;
   --color-font: #242424;
   --color-white: #fff;
+  --color-blocks: #b7c09d;
 }
