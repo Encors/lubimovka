@@ -2,3 +2,29 @@
   max-width: 568px;
   margin: 0 0 47px 360px;
 }
+
+@media screen and (max-width: 1139px) {
+  .section-title_place_photos {
+    margin: 0 0 22px 260px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .section-title_place_photos {
+    margin: 0 0 22px 120px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section-title_place_photos {
+    margin: 0 0 22px 120px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .section-title_place_photos {
+    margin: 0 0 22px 24px;
+  }
+}

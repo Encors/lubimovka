@@ -4,3 +4,9 @@
   padding: 80px 360px 120px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 568px) {
+  .about {
+    padding: 56px 24px 72px 85px;
+  }
+}
