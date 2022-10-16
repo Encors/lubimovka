@@ -1,0 +1,13 @@
+.footer__menu {
+  grid-area: menu;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 980px) {
+  .footer__menu {
+    padding: 56px 55px 0;
+    row-gap: 53px;
+  }
+}

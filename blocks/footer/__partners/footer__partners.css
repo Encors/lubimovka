@@ -1,0 +1,12 @@
+.footer__partners {
+  grid-area: partners;
+  display: flex;
+  column-gap: 1px;
+  padding-top: calc(48px - 42px);
+}
+
+@media (max-width: 980px) {
+  .footer__partners {
+    padding: 84.54px 37px 90px;
+  }
+}

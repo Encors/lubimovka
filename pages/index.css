@@ -21,3 +21,25 @@
 @import url('../blocks/photos/photos.css');
 @import url('../blocks/photo-galery/photo-galery.css');
 @import url('../blocks/photo-galery/__item/photo-galery__item.css');
+/* link */
+@import url('../blocks/link/link.css');
+/* footer */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
+@import url('../blocks/footer/__partners/footer__partners.css');
+@import url('../blocks/footer/__text/footer__text.css');
+@import url('../blocks/footer/__text/_underline/footer__text_underline.css');
+@import url('../blocks/footer/__text/_place/footer__text_place_partners.css');
+@import url('../blocks/footer/__text/_place/footer__text_place_address.css');
+@import url('../blocks/footer/__text/_place/footer__text_place_menu.css');
+@import url('../blocks/footer/__text/_place/footer__text_place_authors.css');
+@import url('../blocks/footer/__partners-list/footer__partners-list.css');
+@import url('../blocks/footer/__partners-link/footer__partners-link.css');
+@import url('../blocks/footer/__partners-logo/footer__partners-logo.css');
+@import url('../blocks/footer/__address/footer__address.css');
+@import url('../blocks/footer/__address-heading/footer__address-heading.css');
+@import url('../blocks/footer/__menu/footer__menu.css');
+@import url('../blocks/footer/__menu-list/footer__menu-list.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+@import url('../blocks/footer/__authors/footer__authors.css');
+@import url('../blocks/footer/__authors-icon/footer__authors-icon.css');
