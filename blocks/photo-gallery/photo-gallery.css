@@ -1,0 +1,26 @@
+.photo-gallery {
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px 3px;
+  justify-items: center;
+}
+
+@media screen and (max-width: 1140px) {
+  .photo-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .photo-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* @media screen and (max-width: 568px) {
+  .photo-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} */
