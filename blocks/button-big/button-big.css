@@ -1,0 +1,32 @@
+.button-big {
+  width: 298px;
+  height: 56px;
+  padding: 0;
+  padding-left: 19.87px;
+  box-sizing: border-box;
+  border: 1px solid var(--color-font);
+  background-color: transparent;
+  background-image: url('../../images/icon/arrow-black-right.svg');
+  background-position: center right 21px;
+  background-repeat: no-repeat;
+  text-align: left;
+  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: calc(22 / 16);
+  cursor: pointer;
+  transition: background-color .5s, color .5s, background-image .5s;
+}
+
+.button-big:hover, .button-big:active {
+  background-color: var(--color-font);
+  color: var(--color-white);
+  background-image: url('../../images/icon/arrow-white-right.svg');
+}
+
+.button-big:disabled {
+  opacity: .2;
+  pointer-events: none;
+}

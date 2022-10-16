@@ -11,6 +11,44 @@
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
-  line-height: .875;
+  line-height: calc(14 / 16);
+  position: relative;
+  cursor: pointer;
 }
 
+.button-small::before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: var(--color-font);
+  position: absolute;
+  z-index: -1;
+  transition: width .6s;
+}
+
+.button-small:hover, .button-small:active {
+  color: var(--color-white);
+}
+
+.button-small:hover::before, .button-small:active::before {
+  width: 100%;
+  animation-name: animation-scale;
+  animation-duration: .3s;
+  animation-delay: .6s;
+}
+
+.button-small:disabled {
+  opacity: .2;
+  pointer-events: none;
+}
+
+@keyframes animation-scale {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(120%);
+  }
+}

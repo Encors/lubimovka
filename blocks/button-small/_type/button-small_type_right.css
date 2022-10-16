@@ -1,7 +1,11 @@
 .button-small_type_right {
-  padding-right: 28px;
-  border-right: 1px solid var(--color-font);
-  background-image: url('../../../images/arrow-left.svg');
-  background-position: right;
-  text-align: right;
+  padding-left: 28px;
+  border-left: 1px solid var(--color-font);
+  background-image: url('../../../images/icon/arrow-black-right.svg');
+  background-position: center left;
+  text-align: left;
+}
+
+.button-small_type_right:hover, .button-small_type_right:active {
+  background-image: url('../../../images/icon/arrow-white-right.svg');
 }
