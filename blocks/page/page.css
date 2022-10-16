@@ -6,6 +6,7 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
 
   background-color: var(--color-background);
   color: var(--color-font);
@@ -15,10 +16,10 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  
+
   /* fonts */
-  --font-headlines: 'Neue Machina', sans-serif;
-  --font-body: 'Formular', sans-serif;
+  --font-headlines: "Neue Machina", sans-serif;
+  --font-body: "Formular", sans-serif;
   /* colors */
   --color-background: #ecebe8;
   --color-accent: #b7c09d;

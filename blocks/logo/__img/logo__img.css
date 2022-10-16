@@ -1,5 +1,7 @@
 .logo__img {
   object-fit: cover;
-  width: 43px;
-  margin: 15px 33px 11px 30px;
+  max-width: 43px;
+  position: absolute;
+  top: 15px;
+  left: 30px;
 }
