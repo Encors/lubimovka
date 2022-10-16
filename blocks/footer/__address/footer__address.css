@@ -1,0 +1,15 @@
+.footer__address {
+  grid-area: address;
+  padding: 19px 3px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+@media (max-width: 980px) {
+  .footer__address {
+    padding: 32px 55px 0;
+    padding-left: 55px;
+    row-gap: 8px;
+  }
+}
