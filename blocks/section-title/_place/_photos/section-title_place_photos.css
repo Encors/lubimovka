@@ -3,28 +3,21 @@
   margin: 0 0 47px 360px;
 }
 
-@media screen and (max-width: 1139px) {
+@media screen and (max-width: 1140px) {
   .section-title_place_photos {
-    margin: 0 0 22px 260px;
+    margin-left: 160px;
   }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 750px) {
   .section-title_place_photos {
-    margin: 0 0 22px 120px;
-    max-width: 400px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .section-title_place_photos {
-    margin: 0 0 22px 120px;
-    max-width: 400px;
+    margin-left: 100px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .section-title_place_photos {
+    max-width: 369px;
     margin: 0 0 22px 24px;
   }
 }
