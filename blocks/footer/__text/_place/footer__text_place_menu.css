@@ -1,0 +1,7 @@
+@media (max-width: 980px) {
+  .footer__text_place_menu {
+    font-size: 18px;
+    line-height: calc(23 / 18);
+    font-feature-settings: 'ss01' on;
+  }
+}

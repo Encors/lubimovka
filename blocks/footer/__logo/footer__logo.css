@@ -1,0 +1,9 @@
+.footer__logo {
+  grid-area: logo;
+}
+
+@media (max-width: 980px) {
+  .footer__logo {
+    padding-left: 58px;
+  }
+}

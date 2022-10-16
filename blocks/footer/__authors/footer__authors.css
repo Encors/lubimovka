@@ -1,0 +1,17 @@
+.footer__authors {
+  grid-area: authors;
+  justify-self: end;
+  padding-top: 49px;
+  padding-right: calc(92px - 32px);
+  box-sizing: border-box;
+  display: flex;
+}
+
+@media (max-Width: 980px) {
+  .footer__authors {
+    justify-self: start;
+    padding: 59px 27px 0;
+    flex-wrap: wrap;
+    row-gap: 16px;
+  }
+}

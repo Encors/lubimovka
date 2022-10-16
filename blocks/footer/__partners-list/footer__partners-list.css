@@ -1,0 +1,14 @@
+.footer__partners-list {
+  display: flex;
+  column-gap: 24px;
+  font-family: var(--font-body);
+}
+
+@media (max-width: 980px) {
+  .footer__partners-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 48px;
+    row-gap: 40px;
+  }
+}
