@@ -10,6 +10,7 @@
 @import url('../blocks/support/support.css');
 @import url('../blocks/navigation/navigation.css');
 @import url('../blocks/navigation/__list/navigation__list.css');
+@import url('../blocks/navigation/__link/navigation__link.css');
 @import url('../blocks/social/social.css');
 @import url('../blocks/social/__list/social__list.css');
 @import url('../blocks/support/__link/support__link.css');
@@ -47,6 +48,9 @@
 
 /* link */
 @import url('../blocks/link/link.css');
+@import url('../blocks/link/_type/link_type_background.css');
+@import url('../blocks/link/_type/link_type_brackets.css');
+@import url('../blocks/link/_type/link_type_underline.css');
 
 /* footer */
 @import url('../blocks/footer/footer.css');
