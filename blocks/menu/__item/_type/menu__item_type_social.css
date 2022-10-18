@@ -1,0 +1,7 @@
+.menu__item_type_social::before {
+  margin-right: -2px;
+}
+
+.menu__item_type_social::after {
+  margin-left: -2px;
+}

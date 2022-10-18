@@ -1,6 +1,7 @@
-.navigation__link {
+.menu__item {
   height: 24px;
   width: 100%;
   display: flex;
   justify-content: center;
 }
+
