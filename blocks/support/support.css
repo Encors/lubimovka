@@ -1,0 +1,9 @@
+.support {
+  box-sizing: border-box;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  border-left: 1px solid var(--color-font);
+  height: 50px;
+  align-self: flex-end;
+}

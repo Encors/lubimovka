@@ -1,0 +1,23 @@
+.section-title_place_photos {
+  max-width: 568px;
+  margin: 0 0 47px 360px;
+}
+
+@media screen and (max-width: 1140px) {
+  .section-title_place_photos {
+    margin-left: 160px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .section-title_place_photos {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .section-title_place_photos {
+    max-width: 369px;
+    margin: 0 0 22px 24px;
+  }
+}

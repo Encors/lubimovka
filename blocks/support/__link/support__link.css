@@ -1,0 +1,8 @@
+.support__link {
+  display: flex;
+  max-width: max-content;
+  margin: 9px 10px 0 13px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+}
