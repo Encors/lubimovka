@@ -52,7 +52,9 @@
 @import url('../blocks/button-small/button-small.css');
 @import url('../blocks/button-small/_type/button-small_type_right.css');
 @import url('../blocks/button-small/_type/button-small_type_left.css');
+@import url('../blocks/button-big/button-big.css');
 @import url('../blocks/button-burger/button-burger.css');
+
 
 /* link */
 @import url('../blocks/link/link.css');
@@ -80,4 +82,3 @@
 @import url('../blocks/footer/__copyright/footer__copyright.css');
 @import url('../blocks/footer/__authors/footer__authors.css');
 @import url('../blocks/footer/__authors-icon/footer__authors-icon.css');
-@import url('../blocks/button-big/button-big.css');
