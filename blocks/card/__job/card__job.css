@@ -1,0 +1,8 @@
+.card__job {
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 8px 0 0 auto;
+  max-width: 177px;
+}

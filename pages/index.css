@@ -62,6 +62,15 @@
 @import url('../blocks/link/_type/link_type_brackets.css');
 @import url('../blocks/link/_type/link_type_underline.css');
 
+/* person */
+@import url(../blocks/persons/persons.css);
+@import url(../blocks/persons/__container/persons__container.css);
+@import url(../blocks/section-title/_place/_persons/section-title_place_persons.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__photo/card__photo.css);
+@import url(../blocks/card/__name/card__name.css);
+@import url(../blocks/card/__job/card__job.css);
+
 /* footer */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__logo/footer__logo.css');
