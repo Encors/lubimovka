@@ -1,0 +1,7 @@
+.persons__container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 930px;
+  width: 100%;
+  margin: 63px 240px 112px 270px;
+}
