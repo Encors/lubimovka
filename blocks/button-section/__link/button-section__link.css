@@ -1,0 +1,9 @@
+.button-section__link {
+    text-decoration: none;
+}
+
+/*@media all and (max-width: 665px) {
+    .button-section__link {
+        align-self: flex-start;
+    }
+}*/
