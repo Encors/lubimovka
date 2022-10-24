@@ -1,0 +1,15 @@
+.button-section__text-and-button {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    font-family: var(--font-headlines);
+}
+
+@media all and (max-width: 665px) {
+    .button-section__text-and-button {
+        padding-left: 62px;
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+}

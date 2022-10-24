@@ -1,0 +1,29 @@
+.button-section {
+    background-color: var(--color-blocks);
+    padding: 71px 270px 140px 360px;
+    margin-bottom: 32px;
+}
+
+@media all and (max-width: 1280px) {
+    .button-section {
+        padding: 64px 243px 126px 324px;
+    }
+}
+
+@media all and (max-width: 1180px) {
+    .button-section {
+        padding: 57px 100px 113px 211px;
+    }
+}
+
+@media all and (max-width: 920px) {
+    .button-section {
+        padding-left: 100px;
+    }
+}
+
+@media all and (max-width: 665px) {
+    .button-section {
+        padding: 56px 30px 72px 25px;
+    }
+}

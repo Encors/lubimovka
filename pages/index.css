@@ -70,6 +70,15 @@
 @import url('../blocks/card/__name/card__name.css');
 @import url('../blocks/card/__job/card__job.css');
 
+/*button-section*/
+@import url('../blocks/button-section/button-section.css');
+@import url('../blocks/button-section/__title/button-section__title.css');
+@import url('../blocks/button-section/__text-and-button/button-section__text-and-button.css');
+@import url('../blocks/button-section/__text/button-section__text.css');
+@import url('../blocks/button-section/__button/button-section__button.css');
+@import url('../blocks/button-section/__button-text/button-section__button-text.css');
+@import url('../blocks/button-section/__link/button-section__link.css');
+
 /* footer */
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__logo/footer__logo.css');
