@@ -1,5 +1,9 @@
 .plays__container {
     width: 100%;
+    /*max-width: 1320px;*/
+    /*max-width: 500px;*/
+    overflow: hidden;
     display: flex;
     gap: 30px;
 }
+

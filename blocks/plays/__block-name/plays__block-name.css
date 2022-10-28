@@ -1,5 +1,5 @@
 .plays__block-name {
-    width: 100%;
+    width: 240px;
     height: 300px;
     background-color:  var(--color-blocks);
     display: flex;
