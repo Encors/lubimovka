@@ -2,8 +2,14 @@
     width: 100%;
     /*max-width: 1320px;*/
     /*max-width: 500px;*/
-    overflow: hidden;
     display: flex;
     gap: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+.plays__container::-webkit-scrollbar {
+    display: none;
 }
 

@@ -2,7 +2,7 @@
 
 function scrollHorizontally(e) {
     e = window.event || e;
-    let delta = Math.max(-1, Math.min(1, (e.wheelDelta || -e.detail)));
+    let delta = Math.max(-1, Math.min(1, (e./*wheelDelta*/mousewheel || -e.detail)));
     document.querySelector('.plays__container').scrollLeft -= (delta * 35);
     e.preventDefault();
 }
