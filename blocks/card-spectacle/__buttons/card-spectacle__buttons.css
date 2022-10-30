@@ -1,0 +1,16 @@
+.card-spectacle__buttons {
+  grid-area: buttons;
+  width: 154px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+@media (max-width: 980px) {
+  .card-spectacle__buttons {
+    width: calc(154px + 26px + 154px);
+    padding-right: 26px;
+    flex-direction: row;
+    column-gap: 26px;
+  }
+}

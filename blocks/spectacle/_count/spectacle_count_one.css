@@ -1,0 +1,6 @@
+.spectacle_count_one {
+  padding: 180px 31px 0;
+  flex-direction: row;
+  column-gap: 60px;
+  justify-content: start;
+}

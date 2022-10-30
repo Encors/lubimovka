@@ -37,6 +37,8 @@
 @import url('../blocks/section-title/section-title.css');
 @import url('../blocks/section-title/_place/_about/section-title_place_about.css');
 @import url('../blocks/section-title/_place/_photos/section-title_place_photos.css');
+@import url('../blocks/section-title/_place/section-title_place_spectacle.css');
+@import url('../blocks/section-title/_place/section-title_place_spectacle-one.css');
 
 /* p section-text */
 @import url('../blocks/section-text/section-text.css');
@@ -47,6 +49,25 @@
 
 @import url('../blocks/photo-gallery/photo-gallery.css');
 @import url('../blocks/photo-gallery/__item/photo-gallery__item.css');
+
+/* spectacle */
+@import url('../blocks/spectacle/spectacle.css');
+@import url('../blocks/spectacle/_count/spectacle_count_two-three.css');
+@import url('../blocks/spectacle/_count/spectacle_count_one.css');
+@import url('../blocks/spectacle/__list/spectacle__list.css');
+@import url('../blocks/spectacle/__list/_count/spectacle__list_count_three.css');
+@import url('../blocks/spectacle/__list/_count/spectacle__list_count_two.css');
+@import url('../blocks/spectacle/__list/_count/spectacle__list_count_one.css');
+@import url('../blocks/spectacle/__item/spectacle__item.css');
+@import url('../blocks/card-spectacle/card-spectacle.css');
+@import url('../blocks/card-spectacle/__image/card-spectacle__image.css');
+@import url('../blocks/card-spectacle/date-time/card-spectacle__date-time.css');
+@import url('../blocks/card-spectacle/__date/card-spectacle__date.css');
+@import url('../blocks/card-spectacle/__time/card-spectacle__time.css');
+@import url('../blocks/card-spectacle/__title/card-spectacle__title.css');
+@import url('../blocks/card-spectacle/__playwright/card-spectacle__playwright.css');
+@import url('../blocks/card-spectacle/__about/card-spectacle__about.css');
+@import url('../blocks/card-spectacle/__buttons/card-spectacle__buttons.css');
 
 /* button */
 @import url('../blocks/button-small/button-small.css');

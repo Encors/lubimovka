@@ -1,0 +1,28 @@
+.card-spectacle {
+  width: 420px;
+  height: 280px;
+  display: grid;
+  grid-template-areas:
+  'image date-time'
+  'image title'
+  'image playwright'
+  'image about'
+  '. buttons';
+  column-gap: 31px;
+  grid-template-columns: min-content auto;
+  grid-template-rows: min-content;
+}
+
+@media (max-width: 980px) {
+  .card-spectacle {
+    width: 364px;
+    height: 242px;
+    grid-template-areas:
+    'image date-time'
+    'image title'
+    'image playwright'
+    'image about'
+    'buttons buttons';
+    column-gap: 29px;
+  }
+}

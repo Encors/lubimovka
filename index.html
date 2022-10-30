@@ -181,6 +181,12 @@
           />
         </section>
       </section>
+      <section class="spectacle">
+        <h2 class="section-title section-title_place_spectacle">
+          Заголовок блока с&nbsp;тремя&nbsp;и&nbsp;более спектаклями
+        </h2>
+        <ul class="spectacle__list list"></ul>
+      </section>
       <section class="persons">
         <h2 class="section-title section-title_place_persons">
           Заголовок блока с персонами
@@ -373,5 +379,24 @@
       </div>
     </footer>
     <button class="button-burger"></button>
+    <template id="template-card-spectacle">
+      <li class="spectacle__item">
+        <article class="card-spectacle">
+          <div class="card-spectacle__image"></div>
+          <div class="card-spectacle__date-time">
+            <p class="card-spectacle__date"></p>
+            <p class="card-spectacle__time"></p>
+          </div>
+          <h3 class="card-spectacle__title"></h3>
+          <p class="card-spectacle__playwright"></p>
+          <p class="card-spectacle__about"></p>
+          <div class="card-spectacle__buttons">
+            <button class="button-small button-small_type_right">О спектакле</button>
+            <button class="button-small button-small_type_right">Билеты</button>
+          </div>
+        </article>
+      </li>
+    </template>
+    <script type="module" src="./pages/index.js"></script>
   </body>
 </html>
