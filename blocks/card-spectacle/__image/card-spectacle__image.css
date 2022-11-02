@@ -1,0 +1,14 @@
+.card-spectacle__image {
+  grid-area: image;
+  width: 120px;
+  height: 161px;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 980px) {
+  .card-spectacle__image {
+    width: 92px;
+    height: 123px;
+  }
+}
