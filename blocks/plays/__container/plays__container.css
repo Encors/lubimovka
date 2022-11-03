@@ -4,12 +4,17 @@
     /*max-width: 500px;*/
     display: flex;
     gap: 30px;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    -webkit-overflow-scrolling: touch;
+    flex-wrap: wrap;
 }
 
 .plays__container::-webkit-scrollbar {
     display: none;
 }
 
+@media all and (max-width: 1200px) {
+    .plays__container {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        /*-webkit-overflow-scrolling: touch;*/
+    }
+}
