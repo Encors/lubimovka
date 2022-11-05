@@ -1,0 +1,33 @@
+.spectacle__item {
+  display: flex;
+  column-gap: 29px;
+}
+
+.spectacle__item::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 268px;
+  background-color: var(--color-font);
+}
+
+.spectacle__item:last-of-type::after {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .spectacle__item {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 31px;
+  }
+
+  .spectacle__item::after {
+    width: 100%;
+    height: 1px;
+  }
+
+  .spectacle__item:last-of-type::after {
+    display: block;
+  }
+}

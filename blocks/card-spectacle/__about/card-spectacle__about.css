@@ -1,0 +1,16 @@
+.card-spectacle__about {
+  grid-area: about;
+  max-width: 150px;
+  margin: 0 0 15px;
+  font-family: var(--font-body);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: calc(17 / 14);
+}
+
+@media (max-width: 980px) {
+  .card-spectacle__about {
+    margin: 0 0 40px;
+  }
+}
