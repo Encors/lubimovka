@@ -1,0 +1,17 @@
+.plays__title {
+    padding-left: 362px;
+    margin-bottom: 48px;
+    max-width: 358px;
+}
+
+@media all and (max-width: 900px) {
+    .plays__title {
+        padding-left: 200px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .plays__title {
+        padding-left: 0%;
+    }
+}

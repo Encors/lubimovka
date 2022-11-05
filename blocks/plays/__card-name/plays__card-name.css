@@ -1,0 +1,8 @@
+.plays__card-name {
+    margin: 24px 31px 0 24px;
+    font-style: var(--font-headlines);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--color-font);
+}

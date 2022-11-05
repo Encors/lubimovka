@@ -1,0 +1,5 @@
+.plays__card {
+    width:  240px;
+    height: 412px;
+    font-family: var(--font-body);
+}
